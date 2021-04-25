@@ -1,0 +1,22 @@
+body{
+background-color:lightpink;
+}
+H1 {text-align:center;color:blue;font-size:244%}
+H2 {text-align:center;color:indigo;font-size:244%}
+H3 {text-align:center;color:green;font-size:244%}
+H4 {text-align:center;color:yellow;font-size:244%}
+H5 {text-align:center;color:red;font-size:344%}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
